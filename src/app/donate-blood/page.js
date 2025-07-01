@@ -43,7 +43,7 @@ const Page = () => {
 
     try {
       const response = await fetch(
-        "http://34.205.160.246:3300/api/auth/register/user",
+        "https://34.205.160.246:3300/api/auth/register/user",
         {
           method: "POST",
           headers: {

@@ -25,7 +25,7 @@ export default function FindDonorPage() {
         bloodGroup: bloodType,
       };
 
-      const apiUrl = "http://34.205.160.246:3300/api/user/donors";
+      const apiUrl = "https://34.205.160.246:3300/api/user/donors";
 
       const response = await fetch(apiUrl, {
         method: "POST",
